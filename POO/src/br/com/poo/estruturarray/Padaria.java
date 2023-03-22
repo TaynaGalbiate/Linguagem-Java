@@ -337,12 +337,12 @@ public class Padaria extends JFrame {
 		
 		JLabel lblvalor = new JLabel("Valor a Pagar:");
 		lblvalor.setFont(new Font("Tahoma", Font.BOLD, 30));
-		lblvalor.setBounds(10, 20, 279, 89);
+		lblvalor.setBounds(868, 38, 279, 89);
 		pnlBase.add(lblvalor);
 		
 		lblValorPagar = new JLabel("New label");
 		lblValorPagar.setFont(new Font("Tahoma", Font.PLAIN, 70));
-		lblValorPagar.setBounds(319, 11, 338, 103);
+		lblValorPagar.setBounds(1157, 24, 338, 103);
 		pnlBase.add(lblValorPagar);
 		lblValorPagar.setText("R$ "+valorPagar);
 		
